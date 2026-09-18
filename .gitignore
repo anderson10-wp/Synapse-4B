@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Local model artifacts
+checkpoints/
+models/
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.ckpt
+
+# Logs and generated files
+*.log
+kaggle_output/
+wandb/
+tensorboard/
